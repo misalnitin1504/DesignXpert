@@ -1,10 +1,11 @@
+import type { ElementType } from 'react';
 import { motion } from 'framer-motion';
 import { projectTypes } from '../data/projectTypes';
 import * as Icons from 'lucide-react';
 
 const ProjectTypes = () => {
   const getIcon = (iconName: string) => {
-    const IconComponent = Icons[iconName as keyof typeof Icons];
+    const IconComponent = Icons[iconName as keyof typeof Icons] as ElementType | undefined;
     return IconComponent ? <IconComponent className="w-8 h-8" /> : null;
   };
 

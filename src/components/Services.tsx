@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, type ElementType } from 'react';
 import { motion } from 'framer-motion';
 import { services } from '../data/services';
 import * as Icons from 'lucide-react';
@@ -8,7 +8,7 @@ const Services = () => {
   const [selectedService, setSelectedService] = useState<number | null>(null);
 
   const getIcon = (iconName: string) => {
-    const IconComponent = Icons[iconName as keyof typeof Icons];
+    const IconComponent = Icons[iconName as keyof typeof Icons] as ElementType | undefined;
     return IconComponent ? <IconComponent className="w-8 h-8" /> : null;
   };
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Phone } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,7 +22,6 @@ const Navbar = () => {
     { name: 'Process', href: '#process' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Before & After', href: '#before-after' },
-    { name: 'Career', href: '#career' },
     { name: 'Contact', href: '#contact' }
   ];
 
