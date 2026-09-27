@@ -140,11 +140,14 @@ const Contact = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="mt-8 bg-secondary-light rounded-xl overflow-hidden h-64 flex items-center justify-center border border-gray-200"
             >
-              <div className="text-center text-gray-500">
-                <MapPin className="w-12 h-12 mx-auto mb-2 text-accent" />
-                <p>Google Maps Integration</p>
-                <p className="text-sm">Pandesara, Surat, Gujarat</p>
-              </div>
+              <iframe
+                title="DesignXpert location in Pandesara, Surat"
+                src="https://maps.google.com/maps?q=Plot%20No.%2055%2C%20First%20Floor%2C%20Shop%20No.%203%2C%20Sai%20Baba%20Nagar%20Society%2C%20Gate%20No.%201%2C%20Bamroli%20Road%2C%20Pandesara%2C%20Surat%2C%20Gujarat%20394221&output=embed"
+                className="h-full w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
             </motion.div>
           </motion.div>
 
