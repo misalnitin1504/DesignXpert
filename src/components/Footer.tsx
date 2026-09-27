@@ -161,7 +161,7 @@ const Footer = () => {
                     <FaLinkedinIn className="w-5 h-5 text-white" />
                   </motion.a>
                   <motion.a
-                    href="https://youtube.com"
+                    href="https://www.youtube.com/@designxpert03"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
