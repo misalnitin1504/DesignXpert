@@ -142,7 +142,7 @@ const Contact = () => {
             >
               <iframe
                 title="DesignXpert location in Pandesara, Surat"
-                src="https://maps.google.com/maps?q=Plot%20No.%2055%2C%20First%20Floor%2C%20Shop%20No.%203%2C%20Sai%20Baba%20Nagar%20Society%2C%20Gate%20No.%201%2C%20Bamroli%20Road%2C%20Pandesara%2C%20Surat%2C%20Gujarat%20394221&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3721.047949304415!2d72.832547!3d21.15049!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be05181d34f6039%3A0x4b49bea55d07ed08!2sDESIGN%20XPERT!5e0!3m2!1sen!2sin!4v1790530716420!5m2!1sen!2sin"
                 className="h-full w-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
