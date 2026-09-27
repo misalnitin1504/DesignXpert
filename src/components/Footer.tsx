@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
   const quickLinks = [
@@ -135,7 +136,7 @@ const Footer = () => {
                     className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
                     aria-label="Facebook"
                   >
-                    <Facebook className="w-5 h-5 text-white" />
+                    <FaFacebookF className="w-5 h-5 text-white" />
                   </motion.a>
                   <motion.a
                     href="https://instagram.com"
@@ -146,7 +147,7 @@ const Footer = () => {
                     className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
                     aria-label="Instagram"
                   >
-                    <Instagram className="w-5 h-5 text-white" />
+                    <FaInstagram className="w-5 h-5 text-white" />
                   </motion.a>
                   <motion.a
                     href="https://linkedin.com"
@@ -157,7 +158,7 @@ const Footer = () => {
                     className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
                     aria-label="LinkedIn"
                   >
-                    <Linkedin className="w-5 h-5 text-white" />
+                    <FaLinkedinIn className="w-5 h-5 text-white" />
                   </motion.a>
                   <motion.a
                     href="https://youtube.com"
@@ -168,7 +169,7 @@ const Footer = () => {
                     className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
                     aria-label="YouTube"
                   >
-                    <Youtube className="w-5 h-5 text-white" />
+                    <FaYoutube className="w-5 h-5 text-white" />
                   </motion.a>
                 </div>
               </div>
