@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 
 const Footer = () => {
   const quickLinks = [
@@ -120,6 +120,57 @@ const Footer = () => {
                 <p className="text-gray-400 text-sm">
                   Pandesara, Surat, Gujarat - 394221
                 </p>
+              </div>
+              
+              {/* Social Media Icons */}
+              <div className="mt-6">
+                <h4 className="font-heading font-semibold mb-4 text-gray-300">Follow Us</h4>
+                <div className="flex gap-4">
+                  <motion.a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
+                    aria-label="Facebook"
+                  >
+                    <Facebook className="w-5 h-5 text-white" />
+                  </motion.a>
+                  <motion.a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
+                    aria-label="Instagram"
+                  >
+                    <Instagram className="w-5 h-5 text-white" />
+                  </motion.a>
+                  <motion.a
+                    href="https://linkedin.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
+                    aria-label="LinkedIn"
+                  >
+                    <Linkedin className="w-5 h-5 text-white" />
+                  </motion.a>
+                  <motion.a
+                    href="https://youtube.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors"
+                    aria-label="YouTube"
+                  >
+                    <Youtube className="w-5 h-5 text-white" />
+                  </motion.a>
+                </div>
               </div>
             </div>
           </motion.div>
