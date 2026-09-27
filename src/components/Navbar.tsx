@@ -39,14 +39,13 @@ const Navbar = () => {
           <motion.a
             href="#home"
             whileHover={{ scale: 1.05 }}
-            className="flex items-center space-x-2"
+            className="flex items-center"
           >
-            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">DX</span>
-            </div>
-            <span className={`font-heading font-bold text-xl ${isScrolled ? 'text-primary' : 'text-white'}`}>
-              DesignXpert
-            </span>
+            <img 
+              src="/logo.png" 
+              alt="DesignXpert Logo" 
+              className="h-12 w-auto"
+            />
           </motion.a>
 
           {/* Desktop Navigation */}
