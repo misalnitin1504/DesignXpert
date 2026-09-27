@@ -128,7 +128,7 @@ const Footer = () => {
                 <h4 className="font-heading font-semibold mb-4 text-gray-300">Follow Us</h4>
                 <div className="flex gap-4">
                   <motion.a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/p/Design-Xpert-61576556795848/"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
