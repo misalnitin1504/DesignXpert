@@ -31,9 +31,11 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">DX</span>
-              </div>
+              <img
+                src="/logo.png"
+                alt="DesignXpert Logo"
+                className="h-10 w-10 rounded-full bg-white p-1 object-contain"
+              />
               <span className="font-heading font-bold text-xl">DesignXpert</span>
             </div>
             <p className="text-gray-400 mb-4">
