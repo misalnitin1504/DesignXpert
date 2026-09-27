@@ -22,6 +22,7 @@ const Navbar = () => {
     { name: 'Process', href: '#process' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Before & After', href: '#before-after' },
+    { name: 'Career', href: '#career' },
     { name: 'Contact', href: '#contact' }
   ];
 

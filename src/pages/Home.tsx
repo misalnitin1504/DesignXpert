@@ -10,6 +10,7 @@ import WhyChooseUs from '../components/WhyChooseUs';
 import DesignApproach from '../components/DesignApproach';
 import LargeScaleProjects from '../components/LargeScaleProjects';
 import CTA from '../components/CTA';
+import Career from '../components/Career';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import FloatingButtons from '../components/FloatingButtons';
@@ -29,6 +30,7 @@ const Home = () => {
       <WhyChooseUs />
       <LargeScaleProjects />
       <CTA />
+      <Career />
       <Contact />
       <Footer />
       <FloatingButtons />
