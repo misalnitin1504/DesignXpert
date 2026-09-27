@@ -139,7 +139,7 @@ const Footer = () => {
                     <FaFacebookF className="w-5 h-5 text-white" />
                   </motion.a>
                   <motion.a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/designxpert03/"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
