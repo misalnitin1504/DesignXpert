@@ -19,12 +19,22 @@ const Career = () => (
           Have a background in architecture, exterior colour design, or project coordination? Send us your résumé and portfolio for future opportunities.
         </p>
         <a
-          href="mailto:designxpert03@gmail.com?subject=Career%20Enquiry"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=designxpert03%40gmail.com&su=Career%20Enquiry&body=Hello%20DesignXpert%2C%0A%0APlease%20find%20my%20resume%20and%20portfolio%20attached."
+          target="_blank"
+          rel="noopener noreferrer"
           className="mt-8 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-medium text-white transition-colors hover:bg-accent-light"
         >
           <Mail className="h-5 w-5" />
-          Send your profile
+          Email your profile
         </a>
+        <p className="mt-4 text-sm text-gray-600">
+          <a
+            href="mailto:designxpert03@gmail.com?subject=Career%20Enquiry"
+            className="underline underline-offset-4 hover:text-accent"
+          >
+            Use another email app
+          </a>
+        </p>
       </motion.div>
     </div>
   </section>
